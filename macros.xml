@@ -1,0 +1,36 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="split">
+      <action id="SplitVertically" />
+      <action id="SplitHorizontally" />
+      <typing text-keycode="51:0;51:0">33</typing>
+    </macro>
+    <macro name="split-vue">
+      <action id="SplitVertically" />
+      <action id="NextSplitter" />
+      <action id="PinActiveTab" />
+      <action id="Find" />
+      <typing text-keycode="44:1;83:0;67:0;82:0;73:0;80:0;84:0">&lt;script</typing>
+      <shortuct text="control G" />
+      <action id="EditorEscape" />
+      <action id="SplitHorizontally" />
+      <action id="NextSplitter" />
+      <action id="Find" />
+      <typing text-keycode="44:1;83:0;84:0;89:0;76:0;69:0">&lt;style</typing>
+      <shortuct text="control G" />
+      <action id="EditorScrollToCenter" />
+    </macro>
+    <macro name="x">
+      <action id="SplitVertically" />
+      <action id="NextSplitter" />
+      <action id="Find" />
+      <typing text-keycode="44:1;83:0;67:0;82:0;73:0;80:0;84:0">&lt;script</typing>
+      <shortuct text="control G" />
+      <action id="SplitHorizontally" />
+      <action id="NextSplitter" />
+      <action id="Find" />
+      <typing text-keycode="44:1;83:0;84:0;89:0;76:0;69:0">&lt;style</typing>
+      <shortuct text="control G" />
+    </macro>
+  </component>
+</application>
